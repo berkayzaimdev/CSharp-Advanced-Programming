@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Exception_Handling", "05
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Dynamic_Object", "06_Dynamic_Object\06_Dynamic_Object.csproj", "{302AA98D-5467-4250-A773-16C7FDA08C16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Generics", "07_Generics\07_Generics.csproj", "{E70A7AF6-D3F9-4BDD-B7AF-50852709FC0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{302AA98D-5467-4250-A773-16C7FDA08C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{302AA98D-5467-4250-A773-16C7FDA08C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{302AA98D-5467-4250-A773-16C7FDA08C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70A7AF6-D3F9-4BDD-B7AF-50852709FC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70A7AF6-D3F9-4BDD-B7AF-50852709FC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70A7AF6-D3F9-4BDD-B7AF-50852709FC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70A7AF6-D3F9-4BDD-B7AF-50852709FC0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
