@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Covariance_Contravarianc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Delegates", "09_Delegates\09_Delegates.csproj", "{20BA3479-8880-4AF3-B70A-5C312416F20F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Events", "10_Events\10_Events.csproj", "{98B272BE-2BF4-40D5-AFDD-0B86C0317F90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{20BA3479-8880-4AF3-B70A-5C312416F20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20BA3479-8880-4AF3-B70A-5C312416F20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20BA3479-8880-4AF3-B70A-5C312416F20F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B272BE-2BF4-40D5-AFDD-0B86C0317F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B272BE-2BF4-40D5-AFDD-0B86C0317F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B272BE-2BF4-40D5-AFDD-0B86C0317F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B272BE-2BF4-40D5-AFDD-0B86C0317F90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
