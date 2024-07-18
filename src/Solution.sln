@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_ExpandoObject", "13_Expa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Access_Modifiers", "14_Access_Modifiers\14_Access_Modifiers.csproj", "{84C0788E-F0D5-4118-9543-9B2BE279D65A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Built_In_Interfaces", "15_Built_In_Interfaces\15_Built_In_Interfaces.csproj", "{B7DA8AFC-B900-44C2-A3AF-7ABC97F0420D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{84C0788E-F0D5-4118-9543-9B2BE279D65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84C0788E-F0D5-4118-9543-9B2BE279D65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84C0788E-F0D5-4118-9543-9B2BE279D65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7DA8AFC-B900-44C2-A3AF-7ABC97F0420D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DA8AFC-B900-44C2-A3AF-7ABC97F0420D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DA8AFC-B900-44C2-A3AF-7ABC97F0420D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DA8AFC-B900-44C2-A3AF-7ABC97F0420D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
