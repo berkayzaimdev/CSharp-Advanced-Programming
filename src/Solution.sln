@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Access_Modifiers", "14_A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Built_In_Interfaces", "15_Built_In_Interfaces\15_Built_In_Interfaces.csproj", "{B7DA8AFC-B900-44C2-A3AF-7ABC97F0420D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Enumeration", "16_Enumeration\16_Enumeration.csproj", "{0A271EE1-DFA0-4D31-B01C-EABC0FA4EDE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{B7DA8AFC-B900-44C2-A3AF-7ABC97F0420D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7DA8AFC-B900-44C2-A3AF-7ABC97F0420D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7DA8AFC-B900-44C2-A3AF-7ABC97F0420D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A271EE1-DFA0-4D31-B01C-EABC0FA4EDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A271EE1-DFA0-4D31-B01C-EABC0FA4EDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A271EE1-DFA0-4D31-B01C-EABC0FA4EDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A271EE1-DFA0-4D31-B01C-EABC0FA4EDE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
