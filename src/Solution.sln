@@ -25,15 +25,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Events", "10_Events\10_E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Built_In_Delegates", "11_Built_In_Delegates\11_Built_In_Delegates.csproj", "{F36AFC8C-2A14-411A-98FC-ED7E89EB00C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Anonymous_Structures", "12_Anonymous_Structures\12_Anonymous_Structures.csproj", "{07FB9348-0387-40C8-ADAC-2B3886FF9730}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_Anonymous_Structures", "12_Anonymous_Structures\12_Anonymous_Structures.csproj", "{07FB9348-0387-40C8-ADAC-2B3886FF9730}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_ExpandoObject", "13_ExpandoObject\13_ExpandoObject.csproj", "{AC82DF5E-3AA6-4EBE-820F-1C480B47F9F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_ExpandoObject", "13_ExpandoObject\13_ExpandoObject.csproj", "{AC82DF5E-3AA6-4EBE-820F-1C480B47F9F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Access_Modifiers", "14_Access_Modifiers\14_Access_Modifiers.csproj", "{84C0788E-F0D5-4118-9543-9B2BE279D65A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Access_Modifiers", "14_Access_Modifiers\14_Access_Modifiers.csproj", "{84C0788E-F0D5-4118-9543-9B2BE279D65A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Built_In_Interfaces", "15_Built_In_Interfaces\15_Built_In_Interfaces.csproj", "{B7DA8AFC-B900-44C2-A3AF-7ABC97F0420D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_Built_In_Interfaces", "15_Built_In_Interfaces\15_Built_In_Interfaces.csproj", "{B7DA8AFC-B900-44C2-A3AF-7ABC97F0420D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Enumeration", "16_Enumeration\16_Enumeration.csproj", "{0A271EE1-DFA0-4D31-B01C-EABC0FA4EDE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_Enumeration", "16_Enumeration\16_Enumeration.csproj", "{0A271EE1-DFA0-4D31-B01C-EABC0FA4EDE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_Custom_Collection_Initializers", "17_Custom_Collection_Initializers\17_Custom_Collection_Initializers.csproj", "{0752F26E-4CC5-4995-8982-6D7EA02CBA4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{0A271EE1-DFA0-4D31-B01C-EABC0FA4EDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A271EE1-DFA0-4D31-B01C-EABC0FA4EDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A271EE1-DFA0-4D31-B01C-EABC0FA4EDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0752F26E-4CC5-4995-8982-6D7EA02CBA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0752F26E-4CC5-4995-8982-6D7EA02CBA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0752F26E-4CC5-4995-8982-6D7EA02CBA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0752F26E-4CC5-4995-8982-6D7EA02CBA4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
