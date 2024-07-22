@@ -39,17 +39,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_Custom_Collection_Initia
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_Attributes", "18_Attributes\18_Attributes.csproj", "{F67AC1B7-C4D2-486A-BA1D-1823A1C2FEA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_Reflection", "19_Reflection\19_Reflection.csproj", "{F1A670A8-A893-4629-BA81-6E2FE70F6CF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_Reflection", "19_Reflection\19_Reflection.csproj", "{F1A670A8-A893-4629-BA81-6E2FE70F6CF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_IObservable_IObserver", "20_IObservable_IObserver\20_IObservable_IObserver.csproj", "{8308CB8B-E295-4D8F-BF6B-2D16099A8663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_IObservable_IObserver", "20_IObservable_IObserver\20_IObservable_IObserver.csproj", "{8308CB8B-E295-4D8F-BF6B-2D16099A8663}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_Generating_Random_Problem", "21_Generating_Random_Problem\21_Generating_Random_Problem.csproj", "{A67F294B-7A7F-450B-98F3-DEA3C99E0B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21_Generating_Random_Problem", "21_Generating_Random_Problem\21_Generating_Random_Problem.csproj", "{A67F294B-7A7F-450B-98F3-DEA3C99E0B3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22_SecureString", "22_SecureString\22_SecureString.csproj", "{BA683F5E-2128-4C9E-B8A3-961E9A87BF77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22_SecureString", "22_SecureString\22_SecureString.csproj", "{BA683F5E-2128-4C9E-B8A3-961E9A87BF77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_EventLog", "23_EventLog\23_EventLog.csproj", "{E0BC37AB-6955-463C-B714-261F048E533E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23_EventLog", "23_EventLog\23_EventLog.csproj", "{E0BC37AB-6955-463C-B714-261F048E533E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24_Extension_Methods", "24_Extension_Methods\24_Extension_Methods.csproj", "{2FE33E10-CD96-4EB5-982B-42837DF02BBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24_Extension_Methods", "24_Extension_Methods\24_Extension_Methods.csproj", "{2FE33E10-CD96-4EB5-982B-42837DF02BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_Debugger_Display", "25_Debugger_Display\25_Debugger_Display.csproj", "{8CD0011E-D1CA-4652-A5A0-897D5B833B0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{2FE33E10-CD96-4EB5-982B-42837DF02BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FE33E10-CD96-4EB5-982B-42837DF02BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FE33E10-CD96-4EB5-982B-42837DF02BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD0011E-D1CA-4652-A5A0-897D5B833B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD0011E-D1CA-4652-A5A0-897D5B833B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD0011E-D1CA-4652-A5A0-897D5B833B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD0011E-D1CA-4652-A5A0-897D5B833B0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
