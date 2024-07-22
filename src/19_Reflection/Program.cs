@@ -1,6 +1,49 @@
 ﻿using System.Reflection;
 using System.Reflection.Emit;
 
+#region Reflection Nedir?
+
+// Reflection; runtime'da proje içerisindeki class, interface, delegate, struct, enum gibi tüm türlerin bilgilerine erişme ve bu bilgileri manipüle etmeye yarayan bir özelliktir.
+// yani bir programın kendi yapıtaşlarını inceleme ve değiştirmeyi sağlayan bir özelliktir.
+
+#endregion
+
+#region Reflection'ın Amaçları
+/*
+
+   * Tip Bilgisi İnceleme: bir türün ismi, propertyleri, metotları, field'ları gibi bilgilerine erişmemizi sağlar. Böylece reflection, runtime'da tip hakkında dinamik kararlar almak veya tipin özelliklerine dinamik olarak erişmek için kullanılabilmektedir.
+   * Yeni Bir Tip Oluşturma ve Yükleme: reflection, runtimeda yeni bir tür oluşturulmasına yahut var olan bir .dll dosyaındaki türün yüklenmesine olanak tanımaktadır. Bu sayede programın çalışma sürecinde ihtiyaç duyduğu türleri oluşturmak ve paket program yaklaşımı sergilemek için imkan kılmaktadır.
+   * Member'ları Dinamik Çalıştırma: reflection ile runtime'da metot ya da property gibi member'ları çalıştırabilmekteyiz. Bu özellik sayesinde member'ları dinamik oalrak seçebilmekte ve operasyonlarımızı daha manevratik bir şekilde gerçekleştirebilmekteyiz
+   
+*/
+#endregion
+
+#region Reflection'ın Kullanım Senaryoları
+/*
+
+   * Yazılım Analizi ve Araç Geliştirme
+   * Plugin ve Modül Sistemi: Reflection, dinamik olarak yüklenebilen ve kullanılan eklentileri veya modülleri yönetmek için kullanılabilir. Böylece belirli kontratları uyguladığı takdirde, runtime'da dinamik davranış sergileyebilen plugin(eklenti) tabanlı sistemler geliştirilebilir.
+   * Data Serialize & Deserialize
+   * Konfigürasyon Yönetimi: Reflection, özellikle yapılandırma dosyalarındaki bilgileri okuma ve bu bilgileri uygun nesnelere dönüştürme amacıyla kullanılabilir. Bu, yapılandıırma dosyalarındaki değişikliklere daha esnek bir şekilde yanıt verebilmeyi sağlar.
+   * Unit Test framework'ları
+   * Data Binding süreçleri
+   * Dependency Injection: IoC oluşturmak için kullanılabilir.
+   
+*/
+#endregion
+
+#region Assembly nedir?
+
+/*
+
+   * Uygulamaya karşılık gelen ya da uygulamanın derlenmiş ve neticesinde .dll oluşturulmul halidir.
+      * Compile-Time Assembly: Kaynak kodun derlenmesi sonucu oluşan .dll yahut .exe uzantılı dosyalardır.
+      * Run-Time Assembly: Dinamik olarak oluşturulabilen ve yüklenebilen assembly'lerdir. Reflection ile hedefimiz burasıdır.
+
+*/
+
+#endregion
+
 #region Assembly
 
 /*
