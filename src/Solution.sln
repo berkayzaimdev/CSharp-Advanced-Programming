@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_Debugger_Display", "25_D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_Static_Abstract_Members_In_Interfaces", "26_Static_Abstract_Members_In_Interfaces\26_Static_Abstract_Members_In_Interfaces.csproj", "{3F3DAECA-749E-4675-BD08-FE413F8C2033}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_Static_Anonymous_Functions", "27_Static_Anonymous_Functions\27_Static_Anonymous_Functions.csproj", "{5C410C66-D02C-4993-B12F-E1F72728B4DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{3F3DAECA-749E-4675-BD08-FE413F8C2033}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F3DAECA-749E-4675-BD08-FE413F8C2033}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F3DAECA-749E-4675-BD08-FE413F8C2033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C410C66-D02C-4993-B12F-E1F72728B4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C410C66-D02C-4993-B12F-E1F72728B4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C410C66-D02C-4993-B12F-E1F72728B4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C410C66-D02C-4993-B12F-E1F72728B4DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
