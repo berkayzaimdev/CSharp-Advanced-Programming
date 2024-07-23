@@ -21,6 +21,7 @@ A a1 = new B();
 A a2 = (A)new B();
 
 B b = (B)new A();
+// B b2 = new A(); // error
 
 class A
 {    // sen sağ tarafta A'dan bir instance oluşturuyorsun ve bu oluşturduğun instance'ı, B tipindeki bir değişkene atamak istiyorsun. Bu normal koşulda gerçekleşmez explicit ile (B) gibi belirtmemiz gerekir.
