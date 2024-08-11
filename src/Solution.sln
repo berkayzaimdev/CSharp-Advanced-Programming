@@ -51,13 +51,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23_EventLog", "23_EventLog\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24_Extension_Methods", "24_Extension_Methods\24_Extension_Methods.csproj", "{2FE33E10-CD96-4EB5-982B-42837DF02BBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_Debugger_Display", "25_Debugger_Display\25_Debugger_Display.csproj", "{8CD0011E-D1CA-4652-A5A0-897D5B833B0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25_Debugger_Display", "25_Debugger_Display\25_Debugger_Display.csproj", "{8CD0011E-D1CA-4652-A5A0-897D5B833B0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_Static_Abstract_Members_In_Interfaces", "26_Static_Abstract_Members_In_Interfaces\26_Static_Abstract_Members_In_Interfaces.csproj", "{3F3DAECA-749E-4675-BD08-FE413F8C2033}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_Static_Abstract_Members_In_Interfaces", "26_Static_Abstract_Members_In_Interfaces\26_Static_Abstract_Members_In_Interfaces.csproj", "{3F3DAECA-749E-4675-BD08-FE413F8C2033}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_Static_Anonymous_Functions", "27_Static_Anonymous_Functions\27_Static_Anonymous_Functions.csproj", "{5C410C66-D02C-4993-B12F-E1F72728B4DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_Static_Anonymous_Functions", "27_Static_Anonymous_Functions\27_Static_Anonymous_Functions.csproj", "{5C410C66-D02C-4993-B12F-E1F72728B4DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28_LINQ", "28_LINQ\28_LINQ.csproj", "{53F5A159-4441-4800-99B9-0BE8BB904B21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_LINQ", "28_LINQ\28_LINQ.csproj", "{53F5A159-4441-4800-99B9-0BE8BB904B21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_Span_Memory", "29_Span_Memory\29_Span_Memory.csproj", "{67A22E0F-4312-4D19-8E9F-DBA2AC18E8FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{53F5A159-4441-4800-99B9-0BE8BB904B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F5A159-4441-4800-99B9-0BE8BB904B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53F5A159-4441-4800-99B9-0BE8BB904B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A22E0F-4312-4D19-8E9F-DBA2AC18E8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A22E0F-4312-4D19-8E9F-DBA2AC18E8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A22E0F-4312-4D19-8E9F-DBA2AC18E8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A22E0F-4312-4D19-8E9F-DBA2AC18E8FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
